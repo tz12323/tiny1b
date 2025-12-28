@@ -1,0 +1,13 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+uvc_camera.c
+uvc_camera.cpy*
+uvc_camera.html
+
+# Virtual environments
+.venv

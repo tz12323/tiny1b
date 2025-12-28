@@ -1,0 +1,6 @@
+IADD:00000000:/libiruvc.so
+IDSET:/libiruvc.so:7f001b18912281754253042
+IADD:00000001:/libirparse.so
+IDSET:/libirparse.so:7f0018af512311212603816
+IADD:00000002:/libirtemp.so
+IDSET:/libirtemp.so:7f001ab5712323931044613
