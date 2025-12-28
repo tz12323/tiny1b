@@ -1,6 +1,6 @@
-from Inc.all_config cimport iruvc_error_t, iruvc_log_level_t
-from Inc.libiruvc cimport DevCfg_t, CameraParam_t, CameraStreamInfo_t, libiruvc_version as version, product_type as p_type, uvc_camera_init as init, uvc_camera_list as uvc_list
-from Inc.libiruvc cimport uvc_camera_release as uvc_r,uvc_camera_close as uvc_c,uvc_camera_info_get as info_get,FPS_CNT_MAX, uvc_camera_open as uvc_open, uvc_camera_open_same as uvc_open_same,uvc_frame_buf_create as buf_create,uvc_frame_buf_release as buf_release,uvc_frame_get as frame_get
+from tiny1b.Inc.all_config cimport iruvc_error_t, iruvc_log_level_t
+from tiny1b.Inc.libiruvc cimport DevCfg_t, CameraParam_t, CameraStreamInfo_t, libiruvc_version as version, product_type as p_type, uvc_camera_init as init, uvc_camera_list as uvc_list
+from tiny1b.Inc.libiruvc cimport uvc_camera_release as uvc_r,uvc_camera_close as uvc_c,uvc_camera_info_get as info_get,FPS_CNT_MAX, uvc_camera_open as uvc_open, uvc_camera_open_same as uvc_open_same,uvc_frame_buf_create as buf_create,uvc_frame_buf_release as buf_release,uvc_frame_get as frame_get
 
 from enum import Enum
 from libc.stdlib cimport malloc, free

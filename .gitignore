@@ -8,6 +8,6 @@ wheels/
 uvc_camera.c
 uvc_camera.cpy*
 uvc_camera.html
-
+test/
 # Virtual environments
 .venv
